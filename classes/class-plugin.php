@@ -69,7 +69,7 @@ class Plugin {
 	 */
 	static function load_textdomain() {
 
-		load_plugin_textdomain( 'davon-floating-admin-bar', false, $this->domain_path );
+		load_plugin_textdomain( 'davons-floating-admin-bar', false, $this->domain_path );
 
 	}
 }

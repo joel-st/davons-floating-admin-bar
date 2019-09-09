@@ -30,8 +30,8 @@ require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 $davon_floating_admin_bar_heders = (object) get_plugin_data( __FILE__, true, true );
 
 // Compatibility-Check Variables
-$min_wp_version    = '5.0';
-$min_php_version   = '5.0';
+$min_wp_version    = '4.5';
+$min_php_version   = '5.3';
 $wp_compatibility  = version_compare( $wp_version, $min_wp_version, '<' );
 $php_compatibility = version_compare( PHP_VERSION, $min_php_version, '<' );
 
@@ -51,7 +51,7 @@ if ( $wp_compatibility || $php_compatibility ) {
 			_x(
 				'%1$s requires PHP %2$s (or newer) and WordPress %3$s (or newer) to function properly. Your Site is using PHP %4$s and WordPress %5$s. Please upgrade. The Plugin has been deactivated automatically. Don’t hesitate to ask for Help @%6$s.',
 				'Compatibility-Check failed Warning',
-				'davon-floating-admin-bar'
+				'davons-floating-admin-bar'
 			),
 			'<strong>' . $davon_floating_admin_bar_heders->Name . '</strong>',
 			$min_php_version,
