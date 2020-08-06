@@ -67,7 +67,7 @@ class Plugin {
 	 *
 	 * @since    1.0.0
 	 */
-	static function load_textdomain() {
+	public function load_textdomain() {
 
 		load_plugin_textdomain( 'davons-floating-admin-bar', false, $this->domain_path );
 

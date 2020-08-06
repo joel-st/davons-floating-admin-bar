@@ -8,7 +8,7 @@
  * @wordpress-plugin
  * Plugin Name: Davon’s Floating Admin Bar
  * Description: The Davon’s Floating Admin Bar floats at the top of your Website with minimal impact on the website’s appearance if you are logged in.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: joelmelon
  * Author URI: https://joelstuedle.ch/
  * Text Domain: davons-floating-admin-bar
@@ -31,7 +31,7 @@ $davon_floating_admin_bar_heders = (object) get_plugin_data( __FILE__, true, tru
 
 // Compatibility-Check Variables
 $min_wp_version    = '4.5';
-$min_php_version   = '5.3';
+$min_php_version   = '5.6';
 $wp_compatibility  = version_compare( $wp_version, $min_wp_version, '<' );
 $php_compatibility = version_compare( PHP_VERSION, $min_php_version, '<' );
 
