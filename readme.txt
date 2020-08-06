@@ -4,7 +4,7 @@ Donate link: https://joelstuedle.ch/
 Tags: admin-bar
 Requires at least: 4.5
 Requires PHP: 5.3
-Tested up to: 5.3.2
+Tested up to: 5.4.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -18,8 +18,11 @@ The Davon’s Floating Admin Bar floats at the top of your Website with minimal 
 
 == Changelog ==
 
+= 1.0.2 =
+* Compatibility check.
+
 = 1.0.1 =
-* Check compatibility.
+* Compatibility check.
 
 = 1.0.0 =
 * Initial version.
