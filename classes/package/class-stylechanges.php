@@ -16,7 +16,7 @@ class StyleChanges {
 	 *
 	 * @since    1.0.0
 	 */
-	static function remove_admin_bar_styles() {
+	public function remove_admin_bar_styles() {
 		remove_action( 'wp_head', '_admin_bar_bump_cb' );
 	}
 
@@ -25,7 +25,7 @@ class StyleChanges {
 	 *
 	 * @since    1.0.0
 	 */
-	static function custom_admin_bar_styles() {
+	public function custom_admin_bar_styles() {
 		$admin_bar_styles = '<style>
 			#wpadminbar {
 				top: -30px;
